@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetrina Profumi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Montserrat:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css"
+        integrity="sha512-B0mpFwHOmRf8OK4U2MBOhv9W1nbPw/i3W1nBERvMZaTWd3+j+blGbOyv3w1vJgcy3cYhzwgw1ny+TzWICN35Xg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"
+        integrity="sha512-+m9auGg9ZwnDc37W8RSsLhzKBLVOYsf5BKzSpYrYhQQk6hItXOhBFKHuHbMCpoABCUO6l4HVK+dFwxMIME3E7Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo"></div>
+        <img src="assets/images/logo.png" alt="">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="registrati.html">Login</a></li>
+            <li><a href="contact.html">Contatti</a></li>
+        </ul>
+        <div class="cta">
+            <a href="" class="button">Cerca</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero__content reveal">
+            <p class="intro-text">Gaia parfume</p>
+            <h1 class="big-text">Siamo i rinveditori di profumi più conosciuti sul web</h1>
+            <a href="registrati.html" class="button">Scopri di più</a>
+        </div>
+        <video autoplay muted loop id="video-back">
+            <source src="assets/images/video-back.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <div class="poster mt-3">
+        <div class="poster__img reveal">
+            <img class="principale" src="assets/images/bg-profumo2.png" alt="">
+        </div>
+        <div class="poster__content reveal">
+            <h3 class="big-text">Dolce & Gabbana the one</h3>
+            <p>Nella testa si mescolano la delicata peonia, i succosi agrumi e il dolce mandarino. Successivamente si
+                viene avvolti dall'inebriante aroma floreale di petali di rosa e osmanto. La coda della composizione
+                include accordi di legno di sandalo, patchouli e pepe rosa</p>
+            <a href="" class="button">Acquistalo subito</a>
+        </div>
+    </div>
+
+    <div class="bg-cover mt-3">
+
+        <div class="bg-cover__title reveal">
+            <h3 class="big-text tw">Nei nostri centri in tutta Italia</h3>
+        </div>
+        <div class="bg-cover__text reveal">
+            <h4 class="normal-text tw"><span class="verde">Supporto al cliente</h4></span>
+            <p class="tw">Per qualsiasi problema prima o dopo o durante l'acquisto siamo sempre disponibili</p>
+
+            <h4 class="normal-text tw"><span class="verde">Prenotazione</h4></span>
+            <p class="tw">Non aspetterai nessuno, chiamaci per prefissare un'appuntamento</p>
+
+            <h4 class="normal-text tw"><span class="verde">Soddisfatto o rimborsato</h4></span>
+            <p class="tw">Possibilità di effettuare resi o rimborsi su tutte le fragranze entro 30 giorni</p>
+
+        </div>
+    </div>
+    <div class="poster mt-3">
+        <div class="poster__content reveal">
+            <h3 class="big-text">Escada</h3>
+            <p>La testa del profumo fresca, rinfrescante ed elegante è caratterizzata da una combinazione di mandarini e
+                pompelmi ghiacciati. In seguito, si manifesta il ginepro aromatico, la cui fragranza si intreccia con
+                gli accordi marini accompagnati da un pizzico di sale. Il finale sensuale è appannaggio di un’ondata di
+                legno ambrato con muschio.</p>
+            <a href="" class="button">Acquista subito</a>
+        </div>
+        <div class="poster__img reveal">
+            <img class="principale2" src="assets/images/bg-profumo1.png" alt="">
+        </div>
+    </div>
+
+    <div class="grid mt-3">
+        <div class="col reveal">
+            <h3 class="big-text">Fragranze invernali <br> <span class="verde">Disponibili</span></h3>
+        </div>
+        <div class="col reveal">
+            <p class="mt-2 mt-sma-0">Sapori e odori forti che cattureranno subito la tua attenzione</p>
+        </div>
+
+    </div>
+
+
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto1.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto2.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto3.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto4.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto5.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto6.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content zoom">
+                <img class="box1" src="assets/images/profumetto7.png">
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel-cell__content">
+                <img class="box1" src="assets/images/profumetto8.png">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="poster mt-3">
+        <div class="poster__img reveal">
+            <img class="principale" src="assets/images/bg-profumo3.png" alt="">
+        </div>
+        <div class="poster__content reveal">
+            <h3 class="big-text">Atkinsons The Big Bad Cedar</h3>
+            <p>Il mix dolce e piccante di bacche rosse e pepe rosa stimolerà meravigliosamente i tuoi sensi. Poi si
+                sprigioneranno le note della deliziosa pesca, dei succulenti lamponi e della tenera coppia di violetta e
+                giglio. La combinazione che sentirai più a lungo sarà quella dell’ambra calda con il patchouli esotico.
+            </p>
+            <a href="" class="button">Acquista subito</a>
+        </div>
+    </div>
+    <div class="poster mt-3">
+        <div class="poster__content reveal">
+            <h3 class="big-text">Bal d'afrique</h3>
+            <p>La composizione fragrante si apre con le note fruttate di frutti tipici mediterranei. La combinazione di
+                mandarino verde e bergamotto fresco è completata dal fico d’India esotico e leggermente dolce. Il cuore
+                è dominato dalle inebrianti essenze floreali di gelsomino e giglio di mare, a cui aggiunge eleganza il
+                cardamomo piccante e amaro. Il fondo marcatamente legnoso appartiene agli accordi di sandalo, di cedro e
+                dell’insolito ulivo con un tocco di muschio morbido e sensuale.</p>
+            <a href="" class="button">Acquista subito</a>
+        </div>
+        <div class="poster__img reveal">
+            <img class="principale2" src="assets/images/bg-profumo4.png" alt="">
+        </div>
+    </div>
+    <div class="panel-blue mt-3">
+        <div class="grid">
+            <div class="col panel-blue__dots">
+                <div class="dot zoom"><img class="box" src="assets/images/profumino1.png"></div>
+                <div class="dot zoom"><img class="box" src="assets/images/profumino2.png"></div>
+                <div class="dot zoom"><img class="box" src="assets/images/profumino3.png"></div>
+                <div class="dot zoom"><img class="box" src="assets/images/profumino4.png"></div>
+                <a href="registrati.html" class="button bottoncino">Provali adesso con uno sconto del 30%</a>
+            </div>
+            <div class="col panel-blue__text">
+                <div class="grid">
+                    <div class="col reveal">
+                        <h3 class="big-text tw">Nuove fragranze</h3>
+                    </div>
+                    <div class="col reveal">
+                        <p class="tw mt-2 mt-sma-0">Per un'estate calda e ventilata i nostri aromi più freschi e estivi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <footer class="footer">
+
+        <div class="grid">
+            <div class="col reveal">
+                <h4 class="normal-text tw">Sedi operative</h4>
+                <p>Palermo,Catania,Roma,Milano</p>
+            </div>
+            <div class="col reveal">
+                <h4 class="normal-text tw">Assistenza online</h4>
+                <p>Skype,Discord,Teams,Google meet</p>
+            </div>
+            <div class="col reveal">
+                <h4 class="normal-text tw">Partita Iva</h4>
+                <p>P.IVA 01573850516 - REA: BG-434483- All rights reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
